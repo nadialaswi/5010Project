@@ -12,6 +12,7 @@ url_storage.py retrieves and unpacks zip files into csv_folder as csv files. csv
 
 backend_functions.py utilizes pandas and matplotlib to offer summarization and plotting of the data based on year, state, and input variable, dictated by the user via the frontend, Easy_EPA.py.
 
+input_validation.py validates inputs generated from a user session in the front end
 
 Easy_EPA.py packages the module together via a menu selection service that allows the user to get quick summaries of data based on a meteorological variable, date, year, or state name.
 
